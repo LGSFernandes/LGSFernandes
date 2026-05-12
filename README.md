@@ -72,7 +72,7 @@ Sou graduando em Ciência da Computação pela **UERJ**. Minha especialidade é 
   <br>
   Aplicação Web completa com autenticação, banco de dados relacional e migrações.
   <br>
-  <a href="https://github.com/LGSFernandes/Seu-Repositorio">Ver repositório →</a>
+  <a href="https://github.com/LGSFernandes/">Ver repositório →</a>
 </details>
 
 <details>
@@ -80,7 +80,7 @@ Sou graduando em Ciência da Computação pela **UERJ**. Minha especialidade é 
   <br>
   Bot multifuncional com comandos complexos e integração com APIs.
   <br>
-  <a href="https://github.com/LGSFernandes/Seu-Repositorio">Ver repositório →</a>
+  <a href="https://github.com/LGSFernandes/">Ver repositório →</a>
 </details>
 
 <br>
