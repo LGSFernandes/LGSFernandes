@@ -49,6 +49,7 @@ Sou graduando em Programação pela **UERJ**. Minha especialidade é o **Back-En
     <td width="50%" valign="top">
       <h3>🚀 Outros</h3>
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
       <img src="https://img.shields.io/badge/Discord.py-5865F2?style=flat-square&logo=discord&logoColor=white" />
     </td>
   </tr>
