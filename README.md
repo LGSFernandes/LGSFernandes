@@ -1,7 +1,7 @@
 <!-- Cabeçalho com Alinhamento Central -->
 <div align="center">
   <h1>👋 Olá, eu sou Luckas Fernandes</h1>
-  <p>Estudante de Programação na UERJ | Desenvolvedor Back-End & Entusiasta Front-End</p>
+  <p>Ciência da Computação na UERJ | Desenvolvedor Back-End & Entusiasta Front-End</p>
   
   <a href="https://www.linkedin.com/in/luckas-guylherme-souto-da-cunha-fernandes-8b9b16345/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -14,7 +14,7 @@
 <br>
 
 ## 🌟 Sobre Mim
-Sou graduando em Programação pela **UERJ**. Minha especialidade é o **Back-End**, onde construo a lógica e arquitetura de sistemas, mas estou em constante expansão para o **Front-End** para me tornar um desenvolvedor Full Stack completo.
+Sou graduando em Ciência da Computação pela **UERJ**. Minha especialidade é o **Back-End**, onde construo a lógica e arquitetura de sistemas, mas estou em constante expansão para o **Front-End** para me tornar um desenvolvedor Full Stack completo.
 
 ---
 
