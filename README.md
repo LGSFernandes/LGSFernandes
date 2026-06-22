@@ -68,17 +68,25 @@ Sou graduando em Ciência da Computação pela **UERJ**. Minha especialidade é 
 ## 📂 Projetos em Destaque
 
 <details>
-  <summary><b>🌀 Projeto Flask Avançado</b></summary>
+  <summary><b>🛒 E-Commerce</b></summary>
   <br>
-  Aplicação Web completa com autenticação, banco de dados relacional e migrações.
+  E-Commerce de Vestimentas e Utilitários Infantis Completo
+  <details>
+    <summary> <b>🔧 Tecnologias:</b> </summary>
+    JAVA | SpringBoot | PostgreSQL | Docker | Next
+  </details>
   <br>
   <a href="https://github.com/LGSFernandes/">Ver repositório →</a>
 </details>
 
 <details>
-  <summary><b>🤖 Bot de Discord com Discord.py</b></summary>
+  <summary><b>➕ ExQuest</b></summary>
   <br>
-  Bot multifuncional com comandos complexos e integração com APIs.
+  Sistema criado com função de auxiliar estudos com questões e simulados dinâmicos. 
+  <detais>
+    <summary> <b>🔧 Tecnologias:</b> </summary>
+    Python | Flask | PostgreSQL 
+  </detais>
   <br>
   <a href="https://github.com/LGSFernandes/">Ver repositório →</a>
 </details>
