@@ -83,7 +83,7 @@ Sou graduando em Ciência da Computação pela **UERJ**. Minha especialidade é 
   <summary><b>➕ ExQuest</b></summary>
   <br>
   Sistema criado com função de auxiliar estudos com questões e simulados dinâmicos. 
-  <detais>
+  <details>
     <summary> <b>🔧 Tecnologias:</b> </summary>
     Python | Flask | PostgreSQL 
   </detais>
