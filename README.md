@@ -108,7 +108,7 @@ Aplicação de comércio eletrônico de vestimentas e utilitários infantis, com
 
 **Stack:** `Java` · `Spring Boot` · `PostgreSQL` · `Docker` · `Next.js`
 
-[Explorar repositórios →](https://github.com/LGSFernandes?tab=repositories)
+[Explorar repositórios →](https://github.com/LGSFernandes/ModusWeb)
 
 </details>
 
