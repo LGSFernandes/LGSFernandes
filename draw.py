@@ -1,6 +1,5 @@
 """
-draw.py - transforma uma imagem em arte ASCII colorida, no mesmo estilo do
-desenho de Saturno (saturn.py): rampa " .:-=+*#%@" + cor 24-bit por caractere.
+draw.py - transforma uma imagem em arte ASCII colorida
 
 Uso:
     python draw.py                          # desenha no terminal (ANSI true-color)
@@ -27,7 +26,7 @@ frames[0].save("assets/coding-workspace.gif", save_all=True, append_images=frame
 
 
 # --------------------------------------------------------------------------
-# imagem -> grade de intensidades (0..255), igual ao `q` do saturn.py
+# imagem -> grade de intensidades (0..255)
 # --------------------------------------------------------------------------
 def load_grid(path, cols, rows):
     img = Image.open(path).convert("RGB")
@@ -58,7 +57,7 @@ def find_eyes(img):
 
 
 # --------------------------------------------------------------------------
-# saida 1: terminal (mesma logica do Saturno)
+# saida 1: terminal
 # --------------------------------------------------------------------------
 def print_terminal(grid):
     for row in grid:
