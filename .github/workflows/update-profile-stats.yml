@@ -2,8 +2,7 @@ name: Update Profile Stats
 
 on:
   schedule:
-    # Todo dia às 00:00 no horário de Brasília (03:00 UTC).
-    - cron: "0 3 * * *"
+    - cron: "0 */3 * * *"   # a cada 3 horas (em UTC)
   workflow_dispatch:
   push:
     branches: [main]

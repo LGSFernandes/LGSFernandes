@@ -152,10 +152,10 @@ def wrap(w, h, label, body, extra_css=""):
 
 
 # ----------------------------------------------------------------- status.svg
-def status_svg(d):
+def status_svg(d, lc):
     W, H = 552, 620          # mesma proporção do retrato (jinwoo-art.svg: 552 x 620)
     live = d["live"]
-    xp = d["commits"] * 2 + d["prs"] * 8 + d["issues"] * 3 + d["repos"] * 10 + d["stars"] * 5 if live else 0
+    xp = d["commits"] * 2 + lc["total"] * 5 + d["followers"] * 10 + d["repos"] * 10 if live else 0
     lvl, prog = level_of(xp)
     rank = rank_of(lvl) if live else "?"
     today = dt.date.today()
@@ -190,7 +190,7 @@ def status_svg(d):
     b.append(f'<rect x="112" y="241" width="{W-140}" height="12" rx="6" fill="#1e293b"/>')
     bw = (W - 140) * (prog if live else 0.0)
     b.append(f'<rect class="xp" x="112" y="241" width="{bw:.1f}" height="12" rx="6" fill="url(#bar)" filter="url(#glow)"/>')
-    b.append(f'<text x="{W-28}" y="274" text-anchor="end" font-size="10" fill="#64748b">{xp if live else "--"} XP · atualiza todo dia</text>')
+    b.append(f'<text x="{W-28}" y="274" text-anchor="end" font-size="10" fill="#64748b">{xp if live else "--"} XP · commits*2 · LeetCode*5 · seguidores*10 · repos*10</text>')
     # atributos: 2 colunas x 3 linhas
     attrs = [("COMMITS", d["commits"], "#60a5fa"), ("PULL REQUESTS", d["prs"], "#a78bfa"), ("REPOSITÓRIOS", d["repos"], "#22d3ee"),
              ("ESTRELAS", d["stars"], "#facc15"), ("SEGUIDORES", d["followers"], "#4ade80"), ("CONTRIB. / ANO", d["contribs"], "#f472b6")]
@@ -297,14 +297,14 @@ def main():
     else:
         d = fetch()
     try:
-        lc = demo_leetcode() if d is not None and not d["live"] else fetch_leetcode()
+        lc = demo_leetcode() if not d["live"] else fetch_leetcode()
     except Exception as e:  # LeetCode fora do ar nao pode derrubar o resto
         print("aviso: LeetCode indisponivel:", e)
         lc = demo_leetcode()
-    (OUT / "leetcode.svg").write_text(leetcode_svg(lc), encoding="utf-8")
-    print("ok", OUT / "leetcode.svg")
-    for name, fn in [("status", status_svg), ("langs", langs_svg), ("contrib", contrib_svg)]:
-        (OUT / f"{name}.svg").write_text(fn(d), encoding="utf-8")
+    cards = [("status", lambda: status_svg(d, lc)), ("langs", lambda: langs_svg(d)),
+             ("contrib", lambda: contrib_svg(d)), ("leetcode", lambda: leetcode_svg(lc))]
+    for name, make in cards:
+        (OUT / f"{name}.svg").write_text(make(), encoding="utf-8")
         print("ok", OUT / f"{name}.svg")
 
 
