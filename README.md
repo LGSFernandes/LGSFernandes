@@ -96,7 +96,7 @@ Plataforma de apoio aos estudos com questões, exercícios e simulados dinâmico
 
 **Stack:** `Python` · `Flask` · `PostgreSQL`
 
-[Explorar repositórios →](https://github.com/LGSFernandes?tab=repositories)
+[Explorar repositórios →](https://github.com/LGSFernandes/ExQuest)
 
 </details>
 
