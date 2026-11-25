@@ -89,7 +89,7 @@ Aprendo na prática: projetos, estruturas de dados, algoritmos, testes e código
 </div>
 
 <details>
-<summary><b>➕ ExQuest</b> &nbsp;·&nbsp; — Clique Para Entrar</summary>
+<summary><b>➕ ExQuest (Situação Atual: Avançado)</b> &nbsp;·&nbsp; — Clique Para Entrar</summary>
 <br>
 
 Plataforma de apoio aos estudos com questões, exercícios e simulados dinâmicos, pensada para tornar a prática e o acompanhamento do aprendizado mais organizados.
@@ -101,7 +101,7 @@ Plataforma de apoio aos estudos com questões, exercícios e simulados dinâmico
 </details>
 
 <details>
-<summary><b>🛍️ E-Commerce Infantil</b> &nbsp;·&nbsp; — Clique Para Entrar</summary>
+<summary><b>🛍️ E-Commerce Infantil (Situação Atual: Inicial)</b> &nbsp;·&nbsp; — Clique Para Entrar</summary>
 <br>
 
 Aplicação de comércio eletrônico de vestimentas e utilitários infantis, com foco na organização das funcionalidades e na experiência de compra.
